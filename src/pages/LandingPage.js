@@ -14,7 +14,7 @@ const LandingPage = () => {
               transition={{ duration: 0.5 }}
               className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white"
             >
-              Welcome to Our Restaurant
+              Welcome to GALAXY FOOD POINT
             </motion.h1>
             <motion.p
               initial={{ opacity: 0, y: 50 }}
@@ -41,7 +41,7 @@ const LandingPage = () => {
               transition={{ duration: 0.5 }}
               className="object-cover object-center rounded"
               alt="hero"
-              src="https://via.placeholder.com/720x600"
+              src="/images/worker1.jpg"
             />
           </div>
         </div>
@@ -56,7 +56,7 @@ const LandingPage = () => {
               className="p-4 md:w-1/3"
             >
               <div className="h-full border-2 border-gray-800 rounded-lg overflow-hidden">
-                <img className="lg:h-48 md:h-36 w-full object-cover object-center" src="https://via.placeholder.com/721x401" alt="blog" />
+                <img className="lg:h-48 md:h-36 w-full object-cover object-center" src="/images/worker2.jpg" alt="blog" />
                 <div className="p-6">
                   <h2 className="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">CATEGORY</h2>
                   <h1 className="title-font text-lg font-medium text-white mb-3">Fine Dining</h1>
@@ -69,7 +69,7 @@ const LandingPage = () => {
               className="p-4 md:w-1/3"
             >
               <div className="h-full border-2 border-gray-800 rounded-lg overflow-hidden">
-                <img className="lg:h-48 md:h-36 w-full object-cover object-center" src="https://via.placeholder.com/722x402" alt="blog" />
+                <img className="lg:h-48 md:h-36 w-full object-cover object-center" src="/images/worker3.jpg" alt="blog" />
                 <div className="p-6">
                   <h2 className="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">CATEGORY</h2>
                   <h1 className="title-font text-lg font-medium text-white mb-3">Casual Eats</h1>
@@ -82,7 +82,7 @@ const LandingPage = () => {
               className="p-4 md:w-1/3"
             >
               <div className="h-full border-2 border-gray-800 rounded-lg overflow-hidden">
-                <img className="lg:h-48 md:h-36 w-full object-cover object-center" src="https://via.placeholder.com/723x403" alt="blog" />
+                <img className="lg:h-48 md:h-36 w-full object-cover object-center" src="/images/worker4.jpg" alt="blog" />
                 <div className="p-6">
                   <h2 className="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">CATEGORY</h2>
                   <h1 className="title-font text-lg font-medium text-white mb-3">Private Events</h1>

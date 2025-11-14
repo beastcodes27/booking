@@ -3,10 +3,10 @@ import { motion } from 'framer-motion';
 
 const AboutPage = () => {
   const teamMembers = [
-    { name: 'Baraka Kibiki', role: 'Head Chef', bio: '10 years of culinary experience', img: 'https://via.placeholder.com/150' },
-    { name: 'Galous Mgaya', role: 'Sous Chef', bio: 'Specializes in African fusion cuisine', img: 'https://via.placeholder.com/150' },
-    { name: 'Frank Andrew', role: 'Manager', bio: 'Ensures smooth operations and service', img: 'https://via.placeholder.com/150' },
-    { name: 'Elliah Hango', role: 'Pastry Chef', bio: 'Creates unique African-inspired desserts', img: 'https://via.placeholder.com/150' },
+    { name: 'Baraka Kibiki', role: 'Head Chef', bio: '10 years of culinary experience', img: '/images/worker1.jpg' },
+    { name: 'Galous Mgaya', role: 'Sous Chef', bio: 'Specializes in African fusion cuisine', img: '/images/worker2.jpg' },
+    { name: 'Frank Andrew', role: 'Manager', bio: 'Ensures smooth operations and service', img: '/images/worker3.jpg' },
+    { name: 'Elliah Hango', role: 'Pastry Chef', bio: 'Creates unique African-inspired desserts', img: '/images/worker4.jpg' },
   ];
 
   return (

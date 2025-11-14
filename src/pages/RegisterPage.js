@@ -42,6 +42,9 @@ const RegisterPage = () => {
         animate={{ opacity: 1, scale: 1 }}
         className="bg-gray-800 p-8 rounded-lg shadow-lg w-full max-w-md"
       >
+        <div className="text-center mb-8">
+          <img src="/images/logo.png" alt="GALAXY FOOD POINT Logo" className="w-32 mx-auto" />
+        </div>
         <h2 className="text-2xl font-bold text-center text-white mb-8">Register</h2>
         <form onSubmit={handleSubmit}>
           <div className="mb-4">

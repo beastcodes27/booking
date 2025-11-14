@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <header className="bg-gray-900 text-white p-4 shadow-lg">
       <div className="container mx-auto flex justify-between items-center">
-        <Link to="/" className="text-2xl font-bold">Restaurant</Link>
+        <Link to="/" className="text-2xl font-bold">FOOD POINT</Link>
         <nav className="hidden md:flex space-x-4">
           <Link to="/" className="hover:text-gray-400">Home</Link>
           <Link to="/menu" className="hover:text-gray-400">Menu</Link>
