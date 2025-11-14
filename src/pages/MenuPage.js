@@ -29,19 +29,39 @@ const MenuPage = () => {
     <div className="container mx-auto px-5 py-24">
       <h1 className="text-3xl font-bold text-center mb-8">Our Menu</h1>
       <div className="grid md:grid-cols-3 gap-8">
-        {/* Example Meal Card */}
         <motion.div
           whileHover={{ scale: 1.05 }}
           className="bg-gray-800 text-white rounded-lg overflow-hidden shadow-lg"
           onClick={() => handleSelectMeal('Meal 1')}
         >
-          <img className="w-full h-56 object-cover" src="https://via.placeholder.com/400x300" alt="Meal 1" />
+          <img className="w-full h-56 object-cover" src="/images/meal1.jpg" alt="Meal 1" />
           <div className="p-6">
             <h2 className="text-2xl font-bold mb-2">Meal 1</h2>
             <p className="text-gray-400">A delicious description of Meal 1.</p>
           </div>
         </motion.div>
-        {/* Add more meal cards here */}
+        <motion.div
+          whileHover={{ scale: 1.05 }}
+          className="bg-gray-800 text-white rounded-lg overflow-hidden shadow-lg"
+          onClick={() => handleSelectMeal('Meal 2')}
+        >
+          <img className="w-full h-56 object-cover" src="/images/meal2.jpg" alt="Meal 2" />
+          <div className="p-6">
+            <h2 className="text-2xl font-bold mb-2">Meal 2</h2>
+            <p className="text-gray-400">A delicious description of Meal 2.</p>
+          </div>
+        </motion.div>
+        <motion.div
+          whileHover={{ scale: 1.05 }}
+          className="bg-gray-800 text-white rounded-lg overflow-hidden shadow-lg"
+          onClick={() => handleSelectMeal('Meal 3')}
+        >
+          <img className="w-full h-56 object-cover" src="/images/meal3.jpg" alt="Meal 3" />
+          <div className="p-6">
+            <h2 className="text-2xl font-bold mb-2">Meal 3</h2>
+            <p className="text-gray-400">A delicious description of Meal 3.</p>
+          </div>
+        </motion.div>
       </div>
 
       {selectedMeal && (
